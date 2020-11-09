@@ -52,7 +52,7 @@
 }
 
 button {
-  background-color: #4e5f74;
+  background-color: #4e5f7400;
   border: solid 1px transparent;
   border-radius: 4px;
   padding: 10px 20px;
@@ -62,7 +62,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #106ba3;
+  background-color: #106ba300;
 }
 .Stopwatch button {
   padding: 12px 32px;
@@ -72,6 +72,13 @@ button:hover {
   padding: 40px 0;
   font-size: 48px;
 }
-
-
-
+.Numpad {
+  margin: 0.3em;
+}
+.Numpad button {
+  margin: 0.2em;
+  color: #c2262600;
+}
+.Numpad button:active {
+  background-color: #106ba300;
+}
