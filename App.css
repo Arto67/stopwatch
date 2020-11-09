@@ -32,6 +32,7 @@
 }
 .Countdown,
 .Stopwatch {
+  position: relative;
   margin-left: 30px;
   margin-right: 30px;
   border: 2px solid grey;
@@ -72,13 +73,42 @@ button:hover {
   padding: 40px 0;
   font-size: 48px;
 }
+/* Numpad button */
 .Numpad {
   margin: 0.3em;
+  color: #c22626; /* Visible for debug */
 }
-.Numpad button {
-  margin: 0.2em;
-  color: #c2262600;
-}
-.Numpad button:active {
+.Numpad:active {
   background-color: #106ba300;
 }
+/* .btn_1, btn_2, btn_4, btn_8, btn_reset */
+.btn_1 {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+.btn_2 {
+  position: absolute;
+  top: 1em;
+  left: 150px;
+}
+.btn_4 {
+  position: absolute;
+  top: 1em;
+  left: 300px;
+}
+.btn_8 {
+  position: absolute;
+  top: 6em;
+  left: 1em;
+}
+.btn_0 {
+  position: absolute;
+  top: 6em;
+  left: 300px;
+}
+.btn_reset {
+  position: absolute;
+  top: 10em;
+  left: 140px;
+} 
